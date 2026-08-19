@@ -1,0 +1,7 @@
+# built database (regenerate with: sqlite3 surveillance.db < schema.sql && python3 make_synthetic_data.py)
+*.db
+# macOS cruft
+.DS_Store
+# python
+__pycache__/
+*.pyc
